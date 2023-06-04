@@ -1,0 +1,29 @@
+
+    /* Custom CSS styles */
+    .custom-flex {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .custom-flex > div {
+      flex-basis: 30%;
+      padding: 10px;
+      text-align: center;
+      
+    }
+
+    /* Photo Gallery CSS */
+    .photo-gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 10px;
+    }
+
+    .photo-gallery img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+
+   
